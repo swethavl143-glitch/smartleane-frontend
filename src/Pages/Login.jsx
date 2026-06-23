@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../Services/api";
+import { Link } from "react-router-dom";
 
 function Login() {
 
@@ -132,6 +133,16 @@ function Login() {
                 >
                     Login
                 </button>
+
+                <p className="mt-3 text-center">
+
+                    Don't have an account?
+
+                    <Link to="/register">
+                        {" "}Register
+                    </Link>
+
+                </p>
 
             </div>
 

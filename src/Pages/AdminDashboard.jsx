@@ -339,6 +339,14 @@ function AdminDashboard() {
                         </table>
 
                     </div>
+                    <button
+                        className="btn btn-success"
+                        onClick={() =>
+                            navigate("/add-user")
+                        }
+                    >
+                        Add User
+                    </button>
 
                 </div>
 

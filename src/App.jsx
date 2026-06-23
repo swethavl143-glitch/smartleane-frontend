@@ -8,6 +8,8 @@ import ManagerDashboard from "./Pages/ManagerDashboard.jsx";
 import ManagerHistory from "./Pages/ManagerHistory.jsx";
 import AdminDashboard from "./Pages/AdminDashboard";
 import ProtectedRoute from "./Components/ProtectedRoute.jsx";
+import Register from "./Pages/Register";
+import AddUser from "./Pages/AddUser";
 
 
 function App() {
@@ -16,6 +18,14 @@ function App() {
         <BrowserRouter>
 
             <Routes>
+                <Route
+                    path="/add-user"
+                    element={<AddUser />}
+                />
+                <Route
+                    path="/register"
+                    element={<Register />}
+                />
                 <Route
                     path="/apply"
                     element={

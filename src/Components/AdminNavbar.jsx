@@ -7,7 +7,6 @@ function AdminNavbar() {
     const logout = () => {
 
         localStorage.removeItem("token");
-
         navigate("/");
     };
 
@@ -46,6 +45,24 @@ function AdminNavbar() {
                                 to="/admin"
                             >
                                 Dashboard
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link
+                                className="nav-link"
+                                to="/admin/add-user"
+                            >
+                                Add User
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link
+                                className="nav-link"
+                                to="/admin/users"
+                            >
+                                Manage Users
                             </Link>
                         </li>
 
