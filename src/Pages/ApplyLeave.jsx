@@ -1,6 +1,6 @@
 import { useState } from "react";
-import api from "../services/api";
-import Navbar from "../components/Navbar";
+import api from "../Services/api";
+import Navbar from "../Components/Navbar";
 function ApplyLeave() {
 
     const [leaveType, setLeaveType] = useState("CASUAL");

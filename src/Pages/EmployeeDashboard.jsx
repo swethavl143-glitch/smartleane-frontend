@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
-import Navbar from "../components/Navbar";
+import api from "../Services/api";
+import Navbar from "../Components/Navbar";
 import {
     PieChart,
     Pie,

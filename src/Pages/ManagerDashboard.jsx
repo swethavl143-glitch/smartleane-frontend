@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import api from "../services/api";
+import api from "../Services/api";
 import { useNavigate } from "react-router-dom";
-import ManagerNavbar from "../components/ManagerNavbar.jsx";
+import ManagerNavbar from "../Components/ManagerNavbar.jsx";
 
 
 function ManagerDashboard() {

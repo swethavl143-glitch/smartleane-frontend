@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import api from "../services/api";
-import Navbar from "../components/Navbar";
+import api from "../Services/api";
+import Navbar from "../Components/Navbar";
 function LeaveBalance() {
 
     const [balance, setBalance] = useState(null);
@@ -41,6 +41,7 @@ function LeaveBalance() {
 
     return (
         <>
+            <Navbar />
         <div className="container mt-5">
 
             <div className="card shadow">
