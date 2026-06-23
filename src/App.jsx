@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ApplyLeave from "./PageS/ApplyLeave";
+import ApplyLeave from "./Pages/ApplyLeave";
 import MyLeaves from "./Pages/MyLeaves";
-import LeaveBalance from "./pages/LeaveBalance";
-import Login from "./pages/Login";
-import EmployeeDashboard from "./pages/EmployeeDashboard";
+import LeaveBalance from "./Pages/LeaveBalance";
+import Login from "./Pages/Login";
+import EmployeeDashboard from "./Pages/EmployeeDashboard";
 import ManagerDashboard from "./Pages/ManagerDashboard.jsx";
 import ManagerHistory from "./Pages/ManagerHistory.jsx";
 import AdminDashboard from "./Pages/AdminDashboard";
